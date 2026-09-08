@@ -1,3 +1,8 @@
+//! Used to identify a string `query` from a .txt file.
+//!
+//! contains the public `Config` struct for getting the `env::args()`
+//! from the command line arguments.
+//!
 use std::{env, process};
 
 use grep_lite::{Config, run};
