@@ -9,7 +9,7 @@ fn main() {
     });
 
     if let Err(e) = run(config) {
-        eprintln!("Problem passing arguments: {}", e);
+        eprintln!("Application error: {}", e);
         process::exit(1);
     }
 }
