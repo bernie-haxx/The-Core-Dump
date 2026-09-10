@@ -144,6 +144,7 @@ Trust me."
 
         assert_eq!(Some("Rust:"), result.next());
         assert_eq!(Some("Trust me."), result.next());
+        assert_eq!(None, result.next());
     }
     #[test]
     fn case_insensitive_1() {
